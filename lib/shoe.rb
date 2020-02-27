@@ -10,10 +10,6 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
 
   def cobble(condition)
-    if condiiton == "repaired"
       puts "Your shoe is as good as new!"
-    else
-      puts "nil"
-    end
   end
 end
