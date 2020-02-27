@@ -12,4 +12,8 @@ class Shoe
   def cobble(condition)
     if condiiton == "repaired"
       puts "Your shoe is as good as new!"
+    else
+      puts "nil"
+    end
+  end
 end
